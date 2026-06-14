@@ -367,7 +367,7 @@ export default function TrackingScreen({
                 1. Preparando pedido
               </p>
               <p className="text-[10.5px] font-semibold text-slate-500 mt-1">
-                Tu Bowl de Proteína está siendo elaborado con insumos frescos por nuestra cocina.
+                Tu Nutribox está siendo elaborado con insumos frescos por nuestra cocina.
               </p>
             </div>
           </div>

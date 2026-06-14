@@ -230,13 +230,13 @@ export default function TrackingScreen({
     setTimeout(() => {
       let reply = '¡Listo! Entendido, ya estoy avanzando.';
       if (currentStep === 1) {
-        reply = '¡Genial! Aún están sazonando los garbanzos en cocina. Te aviso apenas salga rumbo a tu pabellón.';
+        reply = '¡Genial! Aún se está preparando tu pedido. Te aviso apenas salga rumbo a tu universidad.';
       } else if (currentStep === 2) {
         reply = 'Perfecto, ya estoy muy cerca. Llego en un par de minutos.';
       } else if (currentStep === 3) {
-        reply = 'Ya estoy por el hall principal. ¿Deseas que espere en la puerta o ingreso?';
+        reply = 'Ya estoy cerca a tu universidad.';
       } else if (currentStep === 4) {
-        reply = 'Ya entregado, ¡gracias por recargar energía saludable con Nutribox! Recuerda calificarme ⭐';
+        reply = 'Ya entregado, ¡gracias por recargar energía saludable con Nutribox!';
       }
 
       setMessages(prev => [

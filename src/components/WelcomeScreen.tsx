@@ -371,13 +371,13 @@ export default function WelcomeScreen({
               <div className="space-y-1 text-left">
                 <label className="text-[10px] font-black uppercase tracking-wider text-[#1B5E20] block pl-1">
                   Tu dirección actual / nueva
-                </label>-
+                </label>
                 <input
                   type="text"
                   value={newAddress}
                   onChange={(e) => setNewAddress(e.target.value)}
                   className="w-full bg-slate-50 text-slate-800 font-semibold text-xs px-4 py-3.5 rounded-xl border border-slate-200 focus:outline-none focus:border-[#1B5E20] focus:bg-white placeholder:text-slate-400 transition-all"
-                  placeholder="Ej:UPN SJL, Av.El Sol 461, San Juan de Lurigancho"
+                  placeholder="Ej: UPN SJL, Av. El Sol 461, San Juan de Lurigancho."
                 />
               </div>
 

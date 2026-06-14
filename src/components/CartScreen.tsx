@@ -205,7 +205,7 @@ export default function CartScreen({
                     setError(null);
                   }}
                   className="w-full bg-slate-50 text-slate-800 font-semibold text-xs px-4 py-3.5 rounded-xl border border-slate-200 focus:outline-hidden focus:border-[#1B5E20] focus:bg-white placeholder:text-slate-400 transition-all"
-                  placeholder="Ej: Av. Los Jardines 123"
+                  placeholder="Ej: UPN SJL,Av. El Sol 461."
                 />
               </div>
             </section>
@@ -224,7 +224,7 @@ export default function CartScreen({
                     setError(null);
                   }}
                   className="w-full bg-slate-50 text-slate-800 font-semibold text-xs px-4 py-3.5 rounded-xl border border-slate-200 focus:outline-hidden focus:border-[#1B5E20] focus:bg-white placeholder:text-slate-400 transition-all"
-                  placeholder="Ej: 8:00am"
+                  placeholder="Recepción de pedidos de 7:00 a. m. a 3:00 p. m."
                 />
               </div>
             </section>

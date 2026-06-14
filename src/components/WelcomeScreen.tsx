@@ -363,7 +363,7 @@ export default function WelcomeScreen({
               <div className="space-y-1.5">
                 <h3 className="text-lg font-black text-[#1B5E20]">Dirección de Entrega</h3>
                 <p className="text-xs text-on-surface-variant font-bold leading-normal px-2">
-                 "Escribe el nombre de tu universidad y su dirección exacta."
+                Escribe el nombre de tu universidad y su dirección exacta.
                 </p>
               </div>
 
@@ -377,7 +377,7 @@ export default function WelcomeScreen({
                   value={newAddress}
                   onChange={(e) => setNewAddress(e.target.value)}
                   className="w-full bg-slate-50 text-slate-800 font-semibold text-xs px-4 py-3.5 rounded-xl border border-slate-200 focus:outline-none focus:border-[#1B5E20] focus:bg-white placeholder:text-slate-400 transition-all"
-                  placeholder="Ej: UPN SJL, Av. El Sol 461, San Juan de Lurigancho."
+                  placeholder="Ej: UPN SJL, Av. El Sol 461."
                 />
               </div>
 

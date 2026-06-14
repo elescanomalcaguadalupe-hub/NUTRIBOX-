@@ -124,7 +124,7 @@ export default function TrackingScreen({
             <span class="text-xs">📍</span>
           </div>
           <div class="bg-green-700 text-white text-[8px] font-black px-1.5 py-0.5 rounded shadow-xs mt-1 whitespace-nowrap uppercase tracking-tighter">
-            Tu Entrega (Pab. B) 🏫
+            Tu Entrega 🏫
           </div>
         </div>
       `,

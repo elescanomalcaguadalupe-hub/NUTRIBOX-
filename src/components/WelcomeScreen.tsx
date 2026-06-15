@@ -74,7 +74,7 @@ export default function WelcomeScreen({
                 <div className="truncate flex-1">
                   <span className="text-[10px] text-[#1B5E20] font-black uppercase tracking-wider block leading-none">Entregar en:</span>
                   <span className="text-xs font-bold text-slate-700 truncate block mt-1">
-                    {user.address ? user.address : '📍 ¿Dónde te entregamos? Toca para agregar'}
+                    {user.address ? user.address : '📍 Punto de entrega establecido.'}
                   </span>
                 </div>
               </div>

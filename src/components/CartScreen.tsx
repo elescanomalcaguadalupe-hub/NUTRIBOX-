@@ -194,10 +194,10 @@ export default function CartScreen({
             {/* 2. Sección de Entrega */}
             <section className="space-y-2.5">
               <h2 className="font-black text-xs text-[#1B5E20] uppercase tracking-wider flex items-center gap-1.5">
-                <span>📍 ¿Dónde te entregamos?</span>
+                <span>📍 Punto de entrega establecico</span>
               </h2>
               <div className="relative">
-                <input
+      
                   type="text"
                   value={address}
                   onChange={(e) => {

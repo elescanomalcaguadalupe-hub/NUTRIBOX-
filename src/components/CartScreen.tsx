@@ -197,7 +197,7 @@ export default function CartScreen({
                 <span>📍 Punto de entrega establecico</span>
               </h2>
               <div className="relative">
-      
+              <input>
                   type="text"
                   value={address}
                   onChange={(e) => {
